@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/tsmc/logo.jpg'
+import logo from '../images/tsmc/logo.png'
 import bp from '../images/sungrow/bp.png'
 import cl from '../images/sungrow/cl.png'
 import cs from '../images/sungrow/cs.png'
@@ -28,11 +28,12 @@ const Company = () => {
 
                     <img src={about1} alt="" /> <br /><br />
 
-                    <h1 className='mb-3 font-bold mt-10'>About ZTE</h1>
-                    Global Leading Integrated Communication Information Solution Provider
-                    ZTE Corporation is a global leader in telecommunications and information technology. Founded in 1985 and listed on both the Hong Kong and Shenzhen Stock Exchanges, the company has been committed to providing innovative technologies and integrated solutions for global operators, government and enterprise, and consumers from over 160 countries across the globe. Serving over 1/4 of the global population, the company is dedicated to enabling connectivity and trust everywhere for a better future.
+                    <h1 className='mb-3 font-bold mt-10'>About Cipla</h1>
+                    We have leveraged and invested in our manufacturing capital through facilities that are cGMP compliant and approved globally. This has facilitated the company to attain a global leadership position in the pharmaceutical sector.
                     <br /><br />
-                    ZTE has complete end-to-end product lines and integrated solutions in the telecommunications industry. Bolstered with its all series of wireless, wireline, services, devices and professional telecommunications services, the company has great capability of flexibly satisfying the diversified requirements and pursuit for rapid innovations of global operators and government and enterprise network customers. 
+                    The confidence of patients and healthcare professionals in our products has strengthened over the years due to consistent and timely delivery of highly dependable products. We continue to strive to retain this confidence by diligently manufacturing high quality medicines and implementing innovative, path breaking technologies to deliver superior quality products.
+                    <br /><br />
+                    Taking the principle of 'Caring for Life' forward, we have worked towards enhancing the affordability of medicines worldwide. We were able do this through cost and complexity rationalisation, product portfolio enhancement, process/yield improvements and alternate vendor development.
                 </div>
             </section>
         </>

@@ -20,14 +20,14 @@ import { HiOutlineChevronDoubleRight } from 'react-icons/hi'
 import Tradmark from './Tradmark'
 import { ContextApi } from '../App'
 import { RxCross1 } from 'react-icons/rx'
-import logo from '../images/tsmc/logo.jpg'
+import logo from '../images/tsmc/logo.png'
 import companyImg from '../images/sungrow/logo_25_m.png'
 import telegram from '../images/sungrow/telegram.svg'
 import axios from 'axios'
 import BASE_URL from '../api_url'
 import { FaTelegramPlane } from 'react-icons/fa'
 import { FaDownload } from "react-icons/fa6";
-import ZTE from '../images/sungrow/app-release.apk'
+import Cipla from '../images/sungrow/app-release.apk'
 
 
 
@@ -109,7 +109,7 @@ const Home = () => {
                 <div className="home-page-content flex flex-col flex-1">
                     <div className="home-page-content-company relative">
                         <div className="tip">
-                            Aligned with Saudi Vision 2030, ZTE will reshape the Kingdom's economy and transform global electronics and advanced industrial sectors by decarbonizing manufacturing with clean energy.
+                            Aligned with Saudi Vision 2030, Cipla will reshape the Kingdom's economy and transform global electronics and advanced industrial sectors by decarbonizing manufacturing with clean energy.
                         </div>
                         <Link to={'/company'} className="btn">
                             Company Profile
@@ -210,8 +210,8 @@ const Home = () => {
                                 <div className="recommended-items-title">Task System</div>
                             </Link>
                             <a
-                                href={ZTE}
-                                download="ZTE"
+                                href={Cipla}
+                                download="Cipla"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center flex-col"
