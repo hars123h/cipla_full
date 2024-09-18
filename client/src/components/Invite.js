@@ -289,7 +289,7 @@ const Invite = () => {
                             <div data-v-18e19aaa="" className="step-content">
                                 <div data-v-05d1a9d0="" data-v-18e19aaa="" className="commissionInfo-page-content-step">
                                     <span data-v-05d1a9d0="" data-v-18e19aaa="">
-                                        If your friends invest in the platform, you can get 35% of the total investment.
+                                        If your friends invest in the platform, you can get 30% of the total investment.
                                     </span>
                                     <div data-v-05d1a9d0="" data-v-18e19aaa="" className="commission">
                                         <div data-v-05d1a9d0="" data-v-18e19aaa="" className="commission-header flex items-center">
@@ -301,7 +301,7 @@ const Invite = () => {
                                         </div> <div data-v-05d1a9d0="" data-v-18e19aaa="" className="commission-content">
                                             <div data-v-05d1a9d0="" data-v-18e19aaa="" className="commission-content-title">Direct recommendation Level 1</div>
                                             <div data-v-05d1a9d0="" data-v-18e19aaa="" className="commission-content-value">
-                                                <span data-v-05d1a9d0="" data-v-18e19aaa="" className="primary">Super: 35%</span>
+                                                <span data-v-05d1a9d0="" data-v-18e19aaa="" className="primary">Super: 30%</span>
                                                 <span data-v-05d1a9d0="" data-v-18e19aaa="" className="advanced">Snap Up: 5%</span>
                                             </div>
                                             <div data-v-05d1a9d0="" data-v-18e19aaa="" className="commission-content-title">Indirect recommendation Level 2</div>
