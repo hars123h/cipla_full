@@ -500,6 +500,24 @@ const Invest = () => {
                                         product_no={2}
                                     />
 
+                                    <ProductCard
+                                        product_image={s5}
+                                        product_type={2}
+                                        plan_cycle={5}
+                                        plan_amount={5100}
+                                        plan_daily_earning={3000}
+                                        product_no={2}
+                                    />
+
+                                    <ProductCard
+                                        product_image={s5}
+                                        product_type={2}
+                                        plan_cycle={7}
+                                        plan_amount={15500}
+                                        plan_daily_earning={6000}
+                                        product_no={2}
+                                    />
+
                                     {/* <ProductCard
                                         product_image={s3}
                                         product_type={3}
