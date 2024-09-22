@@ -27,12 +27,15 @@ export const getuserearn = async () => {
         plans_purchased = responce.data.plans_purchased;
         plans_purchased = plans_purchased.map((plans, index) => {
 
-            if (today < new Date(plans.fullTime) && today > new Date(plans.date_till_rewarded)) {
+            if (plans.product_type !== 0) {
 
-                earn += plans.plan_daily_earning * plans.quantity;
+                if (today < new Date(plans.fullTime) && today > new Date(plans.date_till_rewarded)) {
 
-                return {
-                    ...plans, date_till_rewarded: today.toDateString()
+                    earn += plans.plan_daily_earning * plans.quantity;
+
+                    return {
+                        ...plans, date_till_rewarded: today.toDateString()
+                    }
                 }
             }
 
