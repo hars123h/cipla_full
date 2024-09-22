@@ -45,8 +45,13 @@ export const getuserearn = async () => {
 
             if (DateDifference(today, new Date(plans.fullTime)) === 0 && today > new Date(plans.date_till_rewarded)) {
 
-                earn += plans.plan_daily_earning * plans.quantity;
+                if (plans.product_type !== 0) {
 
+                    earn += plans.plan_daily_earning * plans.quantity;
+                }
+                else {
+                    earn += plans.plan_daily_earning * plans.quantity * plans.plan_cycle;
+                }
                 return {
                     ...plans,
                     date_till_rewarded: today.toDateString()
