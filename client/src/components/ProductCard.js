@@ -30,17 +30,22 @@ const ProductCard = ({ active, pre_sale, long_plan_state, product_no, product_ty
 
     const handelInvest = async () => {
 
+        if (plan_amount === 500 && product_type!==0 && !superProduct?.some(obj => obj.plan_amount === 535)) {
+            toaster('Please buy 1701 plan first in super');
+            return
+        }
+
         if (plan_amount === 1701 && product_type!==0 && !superProduct?.some(obj => obj.plan_amount === 1701)) {
             toaster('Please buy 1701 plan first in super');
             return
         }
 
-        if (plan_amount === 5157 && product_type!==0 && !superProduct?.some(obj => obj.plan_amount === 5157)) {
+        if (plan_amount === 5100 && product_type!==0 && !superProduct?.some(obj => obj.plan_amount === 5157)) {
             toaster('Please buy 5157 plan first in super');
             return
         }
 
-        if (plan_amount === 11000 && product_type!==0 && !superProduct?.some(obj => obj.plan_amount === 11000)) {
+        if (plan_amount === 15500 && product_type!==0 && !superProduct?.some(obj => obj.plan_amount === 11000)) {
             toaster('Please buy 11000 plan first in super');
             return
         }
