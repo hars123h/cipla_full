@@ -491,14 +491,6 @@ const Invest = () => {
                                         product_no={1}
                                     />
 
-                                    <ProductCard
-                                        product_image={s1}
-                                        product_type={1}
-                                        plan_cycle={1}
-                                        plan_amount={1030}
-                                        plan_daily_earning={1550}
-                                        product_no={1}
-                                    />
 
                                     <ProductCard
                                         product_image={s5}
@@ -518,14 +510,6 @@ const Invest = () => {
                                         product_no={2}
                                     />
 
-                                    <ProductCard
-                                        product_image={s5}
-                                        product_type={2}
-                                        plan_cycle={7}
-                                        plan_amount={2050}
-                                        plan_daily_earning={1530}
-                                        product_no={2}
-                                    />
 
                                     <ProductCard
                                         product_image={s5}
@@ -607,7 +591,24 @@ const Invest = () => {
                                     />
                                 </> */}
 
-                                    <p className='text-center align-middle h-full w-full'>No Plans</p>
+                                    {/* <p className='text-center align-middle h-full w-full'>No Plans</p> */}
+                                    <ProductCard
+                                        product_image={s1}
+                                        product_type={1}
+                                        plan_cycle={1}
+                                        plan_amount={1030}
+                                        plan_daily_earning={1550}
+                                        product_no={1}
+                                    />
+
+                                    <ProductCard
+                                        product_image={s5}
+                                        product_type={2}
+                                        plan_cycle={7}
+                                        plan_amount={2050}
+                                        plan_daily_earning={1530}
+                                        product_no={2}
+                                    />
 
                                 </>
 
