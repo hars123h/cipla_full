@@ -41,11 +41,11 @@ const Deposit = () => {
                 toaster(`Amount should be greater than ₹${amounts.amount}`);
                 return;
             }
-            // navigate(`/recharge_window/${Deposit}`);
-            else {
-                window.location.href = `${upiurl}/${localStorage.getItem('uid')}/${Deposit}/`
-                return
-            }
+            navigate(`/recharge_window/${Deposit}`);
+            // else {
+            //     window.location.href = `${upiurl}/${localStorage.getItem('uid')}/${Deposit}/`
+            //     return
+            // }
 
         } else {
             toaster('Enter a valid recharge amount');
